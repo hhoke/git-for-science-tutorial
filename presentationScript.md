@@ -107,10 +107,7 @@ git checkout master
 
 If you need `rm` or  `mv` a file, use  `git rm` or `git mv` to also remove or change the git tracking for these files.
 
-### ncfcode.rc.fas.harvard.edu
-sign in with your usual harvardKey username and password
-
-create a new project
+### Our private GitLab setup
 
 #### SSH Key
 We probably want to set up an ssh key(though https can work well in many situations as well).
@@ -128,7 +125,7 @@ check out the settings, ask for questions
 
 ## advanced topics
 
-### collaboration using github features
+### collaboration using github/gitlab features
 
 #### Forking
 Check out the "Fork" button on the top of the screen. This allows you to create a copy of someone else's repository and have total control over subsequent changes. You cannot fork a repository that has the same name as one of your repositories.
@@ -168,4 +165,4 @@ If you decide you want to merge branches back into master:
 You can also use branching and merge requests to manage collaboration.
 
 ## What did we learn?
-Fork [this repo](https://ncfcode.rc.fas.harvard.edu/hhoke/sampleProject_share) and write your own notes here :)
+Fork [this repo](https://github.com/hhoke/git-for-science-tutorial/) and write your own notes here :)
