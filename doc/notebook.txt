@@ -1,0 +1,7 @@
+2017-12-06
+
+I created this electronic notebook so I could keep track of all the progress I've made on this project, and make it easier for new collaborators to get up to speed.
+
+2021-03-25
+
+I am updating this project to make sure it's sensible for a more general audience, as opposed to the Harvard Center for Brain Science c.2017.

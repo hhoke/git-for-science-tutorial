@@ -1,0 +1,18 @@
+Workflow:
+Build on a machine where you have root privileges.
+
+`sudo singularity build myimg.simg Singularity_file`
+
+Singularity for Mac is probably a few months away. Right now you have to use a virtual machine.
+
+Alternatively, pull down from docker hub as a regular user:
+
+`myUserName@ncflogin5: singularity build centos7.simg docker://centos:7`
+
+Run anywhere you can log in, as that user.
+
+`singularity exec -B ${DATA_DIR}:/data -B ${CODE_DIR}:/code myimg.simg /code/scripts/run.sh /data/myThing $http_proxy $https_proxy $no_proxy`
+
+Make sure to bind the directories you will need (and only the directories you need).
+
+
